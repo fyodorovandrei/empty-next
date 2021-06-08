@@ -1,0 +1,12 @@
+.default {
+	--logo-bg: linear-gradient(135deg, #163171 0%, #1F459F 100%);
+	--body-desktop-bg-color: #fff;
+	--text: #545863;
+	--title: #124085;
+	--white: #fff;
+	--numbers: #858B98;
+	--footer-bg: linear-gradient(134.74deg, #173274 0%, #1F459F 114.09%);
+	--yellow: #FBD731;
+	--beige: #F8F7F3;
+	--h3: #2E313A;
+}

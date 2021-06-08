@@ -1,0 +1,69 @@
+@import "const";
+
+.container {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+
+	@media (min-width: $mobile-min-width) and (max-width: $mobile-max-width) {
+		padding: 0 !important;
+	}
+}
+
+@media (min-width: 768px) {
+	.container {
+		width: 750px;
+	}
+}
+
+@media (min-width: 992px) {
+	.container {
+		width: 970px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		width: 1170px;
+	}
+}
+
+@media (min-width: 2000px) {
+	.container {
+		width: 1370px;
+	}
+}
+
+.hideForMobile {
+	display: block;
+
+	@media (min-width: $ipad-min-width) and (max-width: $ipad-max-width) {
+		display: none;
+	}
+
+	@media (min-width: $tablet-and-mobile-min-width) and (max-width: $tablet-and-mobile-max-width) {
+		display: none;
+	}
+
+	@media (min-width: $mobile-min-width) and (max-width: $mobile-max-width) {
+		display: none;
+	}
+}
+
+.showForMobile {
+	display: none;
+
+	@media (min-width: $ipad-min-width) and (max-width: $ipad-max-width) {
+		display: inherit;
+	}
+
+	@media (min-width: $tablet-and-mobile-min-width) and (max-width: $tablet-and-mobile-max-width) {
+		display: inherit;
+	}
+
+	@media (min-width: $mobile-min-width) and (max-width: $mobile-max-width) {
+		display: inherit;
+	}
+}
